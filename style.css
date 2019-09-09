@@ -1,0 +1,94 @@
+
+
+#page{
+    font-family: 'Microsoft JhengHei';
+    height: 100vh; 
+}
+body{
+    display:flex;
+   justify-content: center;
+   
+   
+}
+.border-3{
+    border: 3px silver solid;
+}
+.blue-background{
+    background: #4CB5F5;
+}
+.gray-background{
+    background: #E6E6E6;
+}
+.blue-text{
+    color: #4CB5F5;
+}
+.blue-box-show{
+    box-shadow:3px #666666;
+    z-index: 1;
+}
+.cloud{
+top: 56px;
+left: 66px;
+width: 30px;
+height: 30px;
+opacity: 1;
+}
+.tri{
+top: 66px;
+left: 1184px;
+width: 12px;
+height: 10px;
+transform: matrix(-1, 0, 0, -1, 0, 0);
+background: #666666 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.ori-button{
+    top: 250px;
+left: 334px;
+width: 26px;
+height: 24px;
+background: #FFBA00 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.blu-button{
+    top: 304px;
+left: 334px;
+width: 26px;
+height: 24px;
+background: #0096E6 0% 0% no-repeat padding-box;
+opacity: 1;
+border: 1px solid;
+border-radius: 50%;
+}
+.red-button{
+    top: 370px;
+left: 337px;
+width: 20px;
+height: 12px;
+text-align: left;
+font: Bold 10px/12px Helvetica Neue;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+}
+.green-button{
+    top: 420px;
+left: 334px;
+width: 26px;
+height: 24px;
+background: #9CC450 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.search-button{
+
+width: 50px;
+height: 50px;
+background: #4CB5F5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.search{
+    width: 28px;
+    height: 28px;
+background: transparent url('img/search_24px.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
